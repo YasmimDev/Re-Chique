@@ -1,3 +1,5 @@
+/* Estilização da tela de login */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #868181;
@@ -8,14 +10,14 @@ body {
     margin: 0;
 }
 .login-logo {
-    text-align: center;
     margin-bottom: 20px;
+    text-align: start;
 }
 .login-logo img {
     width: 100px;
 }
 .login-container {
-    background-color: white;
+    background-color: #15C6C6;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -31,7 +33,7 @@ label {
     text-align: left;
 }
 input[type="text"], input[type="password"] {
-    width: 100%;
+    width: 90%;
     padding: 10px;
     margin-top: 5px;
     margin-bottom: 10px;
@@ -45,7 +47,7 @@ input[type="submit"] {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    width: 100%;
+    width: 90%;
 }
 input[type="submit"]:hover {
     background-color: #555;
@@ -77,10 +79,12 @@ p {
     background-color: #ccc;
 }
 a {
-    color: #007bff;
+    color: #076bd6;
     text-decoration: none;
     font-size: 12px;
 }
 a:hover {
     text-decoration: underline;
 }
+
+/* Final da estilização da tela de login */
