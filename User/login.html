@@ -7,34 +7,42 @@
     <title>login</title>
 </head>
 <body>
-    <div class="login-logo">
-        <img src="../User/img/logo.png" alt="Logo">
-    </div>
-    
-    <div class="login-container">
-        <form>
-            <h2>Fazer login</h2>
-            <label for="email">E-mail ou número de telefone celular</label>
-            <input type="text" id="email" name="email">
-            
-            <label for="password">Senha</label>
-            <input type="password" id="password" name="password">
-            <a href="#">Esqueci a senha</a>
-            
-            <input type="submit" value="Fazer login">
-            
-            <div class="checkbox">
-                <input type="checkbox" id="remember" name="remember">
-                <label for="remember">Mantenha-me conectado(a)</label>
-            </div>
-            
-            <p>Ao criar uma conta, você concorda com as Condições de Uso da ReChique. Por favor verifique a Notificação de Privacidade, Notificação de Cookies e a Notificação de Anúncios Baseados em Interesse.</p>
-            
-            <div class="create-account">
-                <p>Novo na ReChique?</p>
-                <a href="#">Criar sua conta da ReChique</a>
-            </div>
-        </form>
-    </div>
+    <body>
+        <main class="login-container">
+            <form>
+                <div class="login-logo">
+                    <img src="./img/logo.png" alt="Logo">
+                </div>
+                <div class="form-group">
+                    <label placeholder="Search..">E-mail ou número de telefone celular</label>
+                    <input type="text" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="password">Senha</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                
+                <div class="form-group">
+                    <a href="#">Esqueci a senha</a>
+                </div>
+                
+                <div class="form-group">
+                    <input type="submit" value="Fazer login">
+                </div>
+                
+                <div class="form-group checkbox">
+                    <input type="checkbox" id="remember" name="remember">
+                    <label for="remember">Mantenha-me conectado(a)</label>
+                </div>
+                
+                <p>Ao criar uma conta, você concorda com as Condições de Uso da ReChique. Por favor, verifique a Notificação de Privacidade, Notificação de Cookies e a Notificação de Anúncios Baseados em Interesse.</p>
+                
+                <div class="create-account">
+                    <p>Novo na ReChique?</p>
+                    <a href="#">Criar sua conta da ReChique</a>
+                </div>
+            </form>
+        </main>
 </body>
 </html>
