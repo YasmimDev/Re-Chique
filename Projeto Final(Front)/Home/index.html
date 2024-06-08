@@ -10,55 +10,69 @@
 <body>
     <main>
         <div class="navbar">
-            <a href="#" class="logo">Logo</a>
-            <div class="search">
-                <input type="text" placeholder="Search..">
-            </div>
-            <div class="user-options">
-                <a href="#">Entre ou cadastre-se</a>
+            <div class="nav1">
+                <a href="/Home/index.html" class="logo"><img src="/Home/img/logo.png"></a>
+                <div class="search">
+                    <input type="text" placeholder="Search..">
+                </div>
+                <div class="user-options">
+                    <a href="#">Entre ou cadastre-se</a>
+                </div>
             </div>
             <div class="dropdown">
-                <button class="dropbtn">Roupas Femininas</button>
+                <button class="dropbtn" id="RF">Roupas Femininas</button>
                 <div class="dropdown-content">
-                    <a href="#">Option 1</a>
-                    <a href="#">Option 2</a>
-                    <a href="#">Option 3</a>
+                    <a href="#">Novidades</a>
+                    <a href="#">Saias</a>
+                    <a href="#">Calças</a>
+                    <a href="#">Vestidos</a>
+                    <a href="#">Casacos</a>
+                    <a href="#">Macacões</a>
+                    <a href="#">Blusas</a>
                 </div>
             </div>
             <div class="dropdown">
                 <button class="dropbtn">Calçados</button>
                 <div class="dropdown-content">
-                    <a href="#">Option 1</a>
-                    <a href="#">Option 2</a>
-                    <a href="#">Option 3</a>
+                    <a href="#">Botas</a>
+                    <a href="#">Sandálias</a>
+                    <a href="#">Chinelos</a>
+                    <a href="#">Papetes</a>
                 </div>
             </div>
             <div class="dropdown">
                 <button class="dropbtn">Acessórios</button>
                 <div class="dropdown-content">
-                    <a href="#">Option 1</a>
-                    <a href="#">Option 2</a>
-                    <a href="#">Option 3</a>
+                    <a href="#">Brincos</a>
+                    <a href="#">Bem-Estar</a>
+                    <a href="#">Bolsas</a>
+                    <a href="#">Colares</a>
+                    <a href="#">Pulseiras</a>
                 </div>
             </div>
             <div class="dropdown">
                 <button class="dropbtn">Material</button>
                 <div class="dropdown-content">
-                    <a href="#">Option 1</a>
-                    <a href="#">Option 2</a>
-                    <a href="#">Option 3</a>
+                    <a href="#">Linho</a>
+                    <a href="#">Algodão</a>
+                    <a href="#">Seda</a>
+                    <a href="#">Tricôs</a>
+                    <a href="#">Malha</a>
+                    <a href="#">Modal</a>
                 </div>
             </div>
         </div>
 
-        <section class="banner">
-            <img src="banner.jpg" alt="Banner da loja Re-Chique">
-            <div class="banner-text">
-                <h1>Compre Produtos</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nec diam ut nunc pulvinar semper.</p>
-                <a href="#" class="btn">Explore</a>
-            </div>
-        </section>
+       <div class="carousel">
+  <div class="carousel-inner">
+    <img src="/Home/img/banner.png" alt="Imagem 1">
+    <img src="/Home/img/banner.png" alt="Imagem 2">
+    <img src="/Home/img/banner.png" alt="Imagem 3">
+    <img src="/Home/img/banner.png" alt="Imagem 4">
+  </div>
+  <button class="prev" onclick="prevSlide()">&#10094;</button>
+  <button class="next" onclick="nextSlide()">&#10095;</button>
+</div>
 
         <section class="produtos">
             <div class="container">
@@ -157,14 +171,20 @@
                 </div>
         
                 <div class="footer-information">
-                    <h3>Informações</h3>
+                    <h3>Suporte</h3>
                     <ul>
                         <li><a href="#">Troca e Devolução</a></li>
                         <li><a href="#">Política de Privacidade</a></li>
-                        <li><a href="#">Fale Conosco</a></li>
                     </ul>
                 </div>
         
+                <div class="footer-SAC">
+                    <h3>Contato</h3>
+                    <ul>
+                        <li><a href="#">Fale Conosco</a></li>
+                    </ul>
+                </div>
+
                 <div class="footer-contact">
                     <h3>Contato</h3>
                     <p>WHATSAPP-(00) 0000 0000</p>
