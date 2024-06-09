@@ -16,8 +16,9 @@ body {
 }
 
 .login-logo img {
-    width: 230px;
-    height: 200px;
+    width: 175px;
+    height: 175px;
+    margin-bottom: 1rem;
 
 }
 
@@ -72,10 +73,10 @@ input[type="submit"] {
     cursor: pointer;
     width: 100%;
 }
-
+/* 
 input[type="submit"]:hover {
     background-color: #555;
-}
+} */
 
 .checkbox {
     display: flex;
@@ -120,4 +121,46 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Final da estilização da tela de login */
+/* -------------------------------------------------------*/
+
+/* Estilização da tela de criar conta */
+
+
+.signup-container {
+    background-color: #0A9494;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: white;
+    width: 350px;
+    text-align: center;
+}
+
+.note img {
+    width: 15px; /* Reduce icon width */
+    height: 15px; /* Reduce icon height */
+}
+
+input[type="submit"] {
+    padding: 8px 15px; /* Reduce button padding */
+    font-size: 14px; /* Reduce button font size */
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%; /* Make input fields full width */
+    max-width: 300px; /* Set a maximum width */
+}
+
+p {
+    font-size: 12px; /* Reduce paragraph font size to 12px */
+}
+
+h2 {
+    font-size: 20px; /* Reduce heading font size to 20px */
+}
+
+label {
+    font-size: 14px; /* Reduce label font size to 14px */
+}
+
+
