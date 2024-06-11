@@ -7,34 +7,44 @@
     <title>Criar conta</title>
 </head>
 <body>
-    <div class="signup-container">
+    <main class="signup-container">
         <form>
             <div class="login-logo">
                 <img src="./img/logo.png" alt="Logo">
             </div>
+
+            <div class="form-group">
             <h2>Criar conta</h2>
-            <label for="name">Seu nome</label>
+            <label class="name">Seu nome</label>
             <input type="text" id="name" name="name">
+            </div>
             
-            <label for="email">E-mail ou número de telefone celular</label>
+            <div class="form-group">
+            <label class="email">E-mail ou número de telefone celular</label>
             <input type="text" id="email" name="email">
-            
-            <label for="password">Senha</label>
+            </div>
+
+            <div class="form-group">
+            <label class="password">Senha</label>
             <input type="password" id="password" name="password">
             <div class="note">
                 <img src="./img/info-icon.png" alt="Info Icon">
                 <span>As senhas devem ter pelo menos 6 caracteres.</span>
             </div>
-            
-            <label for="confirm-password">Insira a senha nova mais uma vez</label>
+            </div>
+
+            <div class="form-group">
+            <label class="confirm-password">Insira a senha nova mais uma vez</label>
             <input type="password" id="confirm-password" name="confirm-password">
-            
+            </div>
+
+            <div class="form-group">
             <input type="submit" value="Verificar e-mail">
-            
+            </div>
             <p>Ao criar uma conta, você concorda com as Condições de Uso da ReChique. Por favor verifique a Notificação de Privacidade, Notificação de Cookies e a Notificação de Anúncios Baseados em Interesse.</p>
             
-            <a href="#">Você já tem uma conta? Fazer login &rarr;</a>
+            <a href="./login.html">Você já tem uma conta? Fazer login &rarr;</a>
         </form>
-    </div>
+    </main>
 </body>
 </html>
