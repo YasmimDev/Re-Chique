@@ -11,21 +11,21 @@
     <main>
         <div class="navbar">
             <div class="nav1">
-                <a href="/Home/index.html" class="logo"><img src="/Home/img/logo.png"></a>
+                <a href="/Home/index.html" class="logo"><img src="/Home/img/Header/logo.png"></a>
                 <div class="search">
                     <input type="text" placeholder="Buscar produtos">
                 </div>
                 <div class="user-options">
-                    <a href="#"><img src="/Home/img/search-icon.svg" class="search-icon"></a>
+                    <a href="#"><img src="/Home/img/Header/search-icon.svg" class="search-icon"></a>
                     <a href="#" id="user-opt">Entre ou cadastre-se</a>
-                    <a href="#"><img src="/Home/img/question-icon.svg" class="header-icons"></a>
-                    <a href="#"><img src="/Home/img/user-icon.svg" class="header-icons"></a>
-                    <a href="#"><img src="/Home/img/bag-icon.svg" class="header-icons"></a>
+                    <a href="#"><img src="/Home/img/Header/question-icon.svg" class="header-icons"></a>
+                    <a href="#"><img src="/Home/img/Header/user-icon.svg" class="header-icons"></a>
+                    <a href="#"><img src="/Home/img/Header/bag-icon.svg" class="header-icons"></a>
                 </div>
             </div>
         <div class="dropdown-container">
             <div class="dropdown">
-                <button class="dropbtn">Roupas Femininas<img src="/Home/img/arrow-icon.svg" class="dropdown-button"></button>
+                <button class="dropbtn">Roupas Femininas<img src="/Home/img/Header/arrow-icon.svg" class="dropdown-button"></button>
                 <a href="#"></a>
                 <div class="dropdown-content">
                     <a href="#">Novidades</a>
@@ -38,7 +38,7 @@
                 </div>
             </div>
             <div class="dropdown">
-                <button class="dropbtn" id="RF">Calçados<img src="/Home/img/arrow-icon.svg" class="dropdown-button"></button>
+                <button class="dropbtn" id="RF">Calçados<img src="/Home/img/Header/arrow-icon.svg" class="dropdown-button"></button>
                 <div class="dropdown-content">
                     <a href="#">Botas</a>
                     <a href="#">Sandálias</a>
@@ -47,7 +47,7 @@
                 </div>
             </div>
             <div class="dropdown">
-                <button class="dropbtn">Acessórios<img src="/Home/img/arrow-icon.svg" class="dropdown-button"></button>
+                <button class="dropbtn">Acessórios<img src="/Home/img/Header/arrow-icon.svg" class="dropdown-button"></button>
                 <div class="dropdown-content">
                     <a href="#">Brincos</a>
                     <a href="#">Bem-Estar</a>
@@ -57,7 +57,7 @@
                 </div>
             </div>
             <div class="dropdown">
-                <button class="dropbtn">Material<img src="/Home/img/arrow-icon.svg" class="dropdown-button"></button>
+                <button class="dropbtn">Material<img src="/Home/img/Header/arrow-icon.svg" class="dropdown-button"></button>
                 <div class="dropdown-content">
                     <a href="#">Linho</a>
                     <a href="#">Algodão</a>
@@ -72,41 +72,38 @@
 
        <div class="carousel">
   <div class="carousel-inner">
-    <img src="/Home/img/banner.png" alt="Imagem 1">
-    <img src="/Home/img/banner.png" alt="Imagem 2">
-    <img src="/Home/img/banner.png" alt="Imagem 3">
-    <img src="/Home/img/banner.png" alt="Imagem 4">
+    <img src="/Home/img/Main/banner.png" alt="Imagem 1">
+    <img src="/Home/img/Main/banner.png" alt="Imagem 2">
+    <img src="/Home/img/Main/banner.png" alt="Imagem 3">
+    <img src="/Home/img/Main/banner.png" alt="Imagem 4">
   </div>
   <button class="prev" onclick="prevSlide()">&#10094;</button>
   <button class="next" onclick="nextSlide()">&#10095;</button>
 </div>
-
+        <div class="main-sections">
         <section class="produtos">
             <div class="container">
                 <h2>Novidades</h2>
                 <div class="produtos-grid">
                     <div class="produto">
-                        <img src="produto1.jpg" alt="Produto 1">
+                        <img src="/Home/img/Main/saia.png" alt="Produto 1">
                         <h3>Lorem ipsum dolor sit</h3>
-                        <p>R$ 90,00</p>
+                        <p class="valor">R$ 90,00</p>
+                        <p>7x de R$ 30,00*</p>
                         <a href="#" class="btn">Comprar</a>
                     </div>
                     <div class="produto">
-                        <img src="produto2.jpg" alt="Produto 2">
+                        <img src="/Home/img/Main/bolsa.png" alt="Produto 2">
                         <h3>Lorem ipsum dolor sit</h3>
-                        <p>R$ 90,00</p>
+                        <p class="valor">R$ 90,00</p>
+                        <p>7x de R$ 30,00*</p>
                         <a href="#" class="btn">Comprar</a>
                     </div>
                     <div class="produto">
-                        <img src="produto3.jpg" alt="Produto 3">
+                        <img src="/Home/img/Main/camisa.png" alt="Produto 3">
                         <h3>Lorem ipsum dolor sit</h3>
-                        <p>R$ 90,00</p>
-                        <a href="#" class="btn">Comprar</a>
-                    </div>
-                    <div class="produto">
-                        <img src="produto4.jpg" alt="Produto 4">
-                        <h3>Lorem ipsum dolor sit</h3>
-                        <p>R$ 90,00</p>
+                        <p class="valor">R$ 90,00</p>
+                        <p>7x de R$ 30,00*</p>
                         <a href="#" class="btn">Comprar</a>
                     </div>
                 </div>
@@ -118,31 +115,24 @@
                 <h2>Promoções</h2>
                 <div class="promocoes-grid">
                     <div class="promocao">
-                        <img src="promocao1.jpg" alt="Promoção 1">
+                        <img src="/Home/img/Main/calça.png" alt="Promoção 1">
                         <h3>Lorem ipsum dolor sit</h3>
-                        <p>R$ 90,00</p>
-                        <p>De R$ 120,00</p>
+                        <p class="preço-anterior">De R$ 120,00</p>
+                        <p class="valor">Por R$ 90,00</p>
                         <a href="#" class="btn">Comprar</a>
                     </div>
                     <div class="promocao">
-                        <img src="promocao2.jpg" alt="Promoção 2">
+                        <img src="/Home/img/Main/blusa.png" alt="Promoção 2">
                         <h3>Lorem ipsum dolor sit</h3>
-                        <p>R$ 90,00</p>
-                        <p>De R$ 120,00</p>
+                        <p class="preço-anterior">De R$ 120,00</p>
+                        <p class="valor">Por R$ 90,00</p>
                         <a href="#" class="btn">Comprar</a>
                     </div>
                     <div class="promocao">
-                        <img src="promocao3.jpg" alt="Promoção 3">
+                        <img src="/Home/img/Main/colar.png" alt="Promoção 3">
                         <h3>Lorem ipsum dolor sit</h3>
-                        <p>R$ 90,00</p>
-                        <p>De R$ 120,00</p>
-                        <a href="#" class="btn">Comprar</a>
-                    </div>
-                    <div class="promocao">
-                        <img src="promocao4.jpg" alt="Promoção 4">
-                        <h3>Lorem ipsum dolor sit</h3>
-                        <p>R$ 90,00</p>
-                        <p>De R$ 120,00</p>
+                        <p class="preço-anterior">De R$ 120,00</p>
+                        <p class="valor">Por R$ 90,00</p>
                         <a href="#" class="btn">Comprar</a>
                     </div>
                 </div>
@@ -152,19 +142,21 @@
         <section class="blog">
             <div class="container">
                 <div class="promotions">
-                    <h2>Promoções</h2>
+                    <h3>PROMOÇÕES</h3>
+                    <img src="/Home/img/Main/promo.png" class="promo" alt="promoção">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis enim id sapien.</p>
-                    <a href="#">Saiba Mais</a>
+                    <a href="#" class="btn">Saiba Mais</a>
                 </div>
             
-                <div class="blog">
-                    <h2>Blog</h2>
+                <div class="blogg">
+                    <h3>BLOG</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis enim id sapien.</p>
-                    <a href="#">Leia Mais</a>
+                    <a href="#" class="btn">Leia Mais</a>
                 </div>
             </div>
         </section>
-           
+    </div>
+
         <footer>
             <div class="footer-container">
                 <div class="footer-list">
@@ -205,10 +197,10 @@
                 </div>
                 
                 <div class="social-icons">
-                    <a href="#"><img src="/Home/img/instagram-icon.svg"></a>
-                    <a href="#"><img src="/Home/img/youtube-icon.svg"></a>
-                    <a href="#"><img src="/Home/img/facebook-icon.svg"></a>
-                    <a href="#"><img src="/Home/img/twitter-icon.svg"></a>
+                    <a href="#"><img src="/Home/img/Footer/instagram-icon.svg"></a>
+                    <a href="#"><img src="/Home/img/Footer/youtube-icon.svg"></a>
+                    <a href="#"><img src="/Home/img/Footer/facebook-icon.svg"></a>
+                    <a href="#"><img src="/Home/img/Footer/twitter-icon.svg"></a>
                 </div>
 
                 <div class="footer-copyright">
