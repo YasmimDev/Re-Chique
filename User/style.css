@@ -198,3 +198,14 @@ label {
 span{
     font-size: 14px;
 }
+
+/*---------------------------------------------------*/
+
+.verify-container{
+    background-color: #0A9494;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: white;
+    width: 350px;
+    text-align: center;
+}
