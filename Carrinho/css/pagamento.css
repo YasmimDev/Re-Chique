@@ -109,62 +109,64 @@ html {
       text-align: center;
       padding: 15rem 0;
   }
-  
-  .concluida {
-    font-weight: bold;
-    font-size: 2.2rem;
-  }
-  
+ 
   .text {
     font-size: 1.3rem;
   }
   
-  .text2{
-      font-weight: 550;
-  }
-  
   .sugestions{
-      display: grid;
-      grid-template-columns: repeat(4,1fr);
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-left: 11%;
+}
+
+.text2{
+  margin-left: 4rem;
+}
+
+.separator {
+    margin: 0 5rem; /* Espaçamento entre o texto e o separador */
+}
+
+.divider {
+    border: 1px solid #AAAAAA; /* Estilo da linha divisória */
+    margin: 20px 0; /* Margem para espaçamento entre as seções */
+}
+
+  .venc{
+    margin-left: 4rem;
   }
-  
-  .separator {
-      margin: 0 5rem; /* Espaçamento entre o texto e o separador */
-  }
-  
-  .divider {
-      border: 1px solid #AAAAAA; /* Estilo da linha divisória */
-      margin: 20px 0; /* Margem para espaçamento entre as seções */
-  }
-  
-  .iconss{
-    width: 3rem;
-  }
-  
-  .pay{
-    padding: 1rem 0;
-    font-size: 1.2rem;
-    text-align: center;
+
+  .pay .check{
+    text-align: start;
+    width: 3.3rem;
+    margin-right: 20%;
   }
   
   .pay p{
-    margin: 1rem;
+    margin-left: 13%;
+  }
+
+  .pay-pix .iconss{
+    align-items: start;
+    width: 3.3rem;
+    margin-right: 20%;
   }
   
   .pay-pix{
     font-size: 1.2rem;
-    padding: 5rem;
-    border: 1px solid black;
-    background-color: F8F8F8;   
+    width: 80%;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    padding: 20px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
+    align-items: start;
     margin-bottom: 5rem;
   }
   
   .pay-pix p{
-    margin: 0.5rem;
+   margin-top: 2rem;
   }
   
   .pixx{
@@ -180,7 +182,7 @@ html {
   .btn{
     background-color:#0a9494;
     padding: 0.6rem 0.8rem;
-    border-radius: 0.3rem;
+    border-radius: 5px;
     text-decoration: none;
     color: white;
     font-weight: bold;
