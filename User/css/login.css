@@ -42,17 +42,28 @@ h2 {
     color: white;
 }
 
+#email, #password {
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: text;
+    width: 92%;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
 .email, .password {
     margin-left: 1rem;
 }
 
 #esc{
     margin-left: 1rem;
+    text-decoration: underline;
 }
 
 label {
     display: block;
-    margin-bottom: 5px;
     color: white;
 }
 
@@ -63,16 +74,13 @@ label {
     margin-left: 1rem;
 }
 
-input[type="text"], input[type="password"] {
-    width: calc(120% - 20%);    
-    padding: 10px;
-    margin-top: 0.3rem;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin-left: 1rem;
+input[type="text"],
+input[type="password"] {
+    width: 100%; 
+    max-width: 300px; 
 }
-
-input[type="submit"] {
+/* 
+input[type="submit button"] {
     background-color: #2958A0;
     color: white;
     padding: 10px;
@@ -81,9 +89,8 @@ input[type="submit"] {
     cursor: pointer;
     width: 92%;
     margin-left: 1rem;
+} */
 
-
-}
 /* 
 input[type="submit"]:hover {
     background-color: #555;
@@ -120,6 +127,10 @@ p {
     display: inline-block;
 }
 
+.create-account p {
+    text-align: center;
+}
+
 .create-account a:hover {
     background-color: #ccc;
 }
@@ -131,81 +142,18 @@ a {
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
-/* -------------------------------------------------------*/
-
-/* Estilização da tela de criar conta */
-
-
-.signup-container {
-    background-color: #0A9494;
-    padding: 15px;
-    border-radius: 20px;
-    box-shadow: white;
-    width: 350px;
-    text-align: center;
-}
-
-.note img {
-    width: 15px; 
-    height: 15px; 
-    margin-top: 0.4rem;
-}
-
-.note{
-    margin-top: 0.3rem;
-}
-
-h2 {
-    margin-bottom: 20px;
+button{
+    background-color: #2958A0;
     color: white;
-    font-size: 12px; 
-}
-
-.email, .password, .name , .note, .confirm-password{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 92%;
     margin-left: 1rem;
-}
-
-
-
-input[type="submit"] {
-    padding: 8px 15px; 
-    font-size: 14px; 
-}
-
-input[type="text"],
-input[type="password"] {
-    width: 100%; 
-    max-width: 300px; 
-}
-
-p {
-    font-size: 12px; 
-    text-align: justify;
-
-}
-
-h2 {
-    font-size: 20px; 
-}
-
-label {
-    font-size: 14px; 
-}
-
-span{
+    margin-top: 1rem;
     font-size: 14px;
-}
-
-/*---------------------------------------------------*/
-
-.verify-container{
-    background-color: #0A9494;
-    padding: 15px;
-    border-radius: 20px;
-    box-shadow: white;
-    width: 350px;
-    text-align: center;
 }
