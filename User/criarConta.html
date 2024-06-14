@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/User/style.css">
+    <link rel="stylesheet" href="/User/css/criar_conta.css">
     <title>Criar conta</title>
 </head>
 <body>
     <main class="signup-container">
-        <form>
+        <form id="loginForm">
             <div class="login-logo">
                 <img src="./img/logo.png" alt="Logo">
             </div>
@@ -16,17 +16,17 @@
             <div class="form-group">
             <h2>Criar conta</h2>
             <label class="name">Seu nome</label>
-            <input type="text" id="name" name="name">
+            <input type="text" id="name" name="name" required>
             </div>
             
             <div class="form-group">
             <label class="email">E-mail ou número de telefone celular</label>
-            <input type="text" id="email" name="email">
+            <input type="text" id="email" name="email" required>
             </div>
 
             <div class="form-group">
             <label class="password">Senha</label>
-            <input type="password" id="password" name="password">
+            <input type="password" id="password" name="password" required>
             <div class="note">
                 <img src="./img/info-icon.png" alt="Info Icon">
                 <span>As senhas devem ter pelo menos 6 caracteres.</span>
@@ -35,16 +35,22 @@
 
             <div class="form-group">
             <label class="confirm-password">Insira a senha nova mais uma vez</label>
-            <input type="password" id="confirm-password" name="confirm-password">
+            <input type="password" id="confirm-password" name="confirm-password" required>
             </div>
 
+            <a href="./verificação.html"> 
             <div class="form-group">
-            <input type="submit" value="Verificar e-mail">
+               
+                    <button type="submit">Verificar e-mail</button> 
             </div>
+        </a>
+
             <p>Ao criar uma conta, você concorda com as Condições de Uso da ReChique. Por favor verifique a Notificação de Privacidade, Notificação de Cookies e a Notificação de Anúncios Baseados em Interesse.</p>
             
             <a href="./login.html">Você já tem uma conta? Fazer login &rarr;</a>
         </form>
     </main>
+    <script src="/User/script/criar_conta.js"></script>
+
 </body>
 </html>
