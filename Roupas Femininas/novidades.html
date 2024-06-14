@@ -3,104 +3,71 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/Roupas Femininas/style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Novidades</title>
   </head>
   <body>
     <header>
       <div class="navbar">
-        <div class="nav1">
-          <a href="/Home/index.html" class="logo"
-            ><img src="/Home/img/Header/logo.png"
-          /></a>
-          <div class="search">
-            <input type="text" placeholder="Buscar produtos" />
+          <div class="nav1">
+              <a href="/Home/index.html" class="logo"><img src="/Home/img/Header/logo.png" alt="Logo"></a>
+              <div class="search">
+                  <input type="text" placeholder="Buscar produtos">
+              </div>
+              <div class="user-options">
+                  <a href="#"><img src="/Home/img/Header/search-icon.svg" class="search-icon" alt="Search"></a>
+                  <a href="/User/login.html" id="user-opt">Entre ou cadastre-se</a>
+                  <a href="#"><img src="/Home/img/Header/question-icon.svg" class="header-icons" alt="Help"></a>
+                  <a href="#"><img src="/Home/img/Header/user-icon.svg" class="header-icons" alt="User"></a>
+                  <a href="/Carrinho/carrinho.html"><img src="/Home/img/Header/bag-icon.svg" class="header-icons" alt="Bag"></a>
+              </div>
           </div>
-          <div class="user-options">
-            <a href="#"
-              ><img src="/Home/img/Header/search-icon.svg" class="search-icon"
-            /></a>
-            <a href="/User/login.html" id="user-opt">Entre ou cadastre-se</a>
-            <a href="#"
-              ><img
-                src="/Home/img/Header/question-icon.svg"
-                class="header-icons"
-            /></a>
-            <a href="#"
-              ><img src="/Home/img/Header/user-icon.svg" class="header-icons"
-            /></a>
-            <a href="/Carrinho/carrinho.html"
-              ><img src="/Home/img/Header/bag-icon.svg" class="header-icons"
-            /></a>
+          <div class="dropdown-container">
+              <div class="dropdown">
+                  <button class="dropbtn">Roupas Femininas<img src="/Home/img/Header/arrow-icon.svg" class="dropdown-button" alt="Arrow"></button>
+                  <div class="dropdown-content">
+                      <a href="/Roupas Femininas/novidades.html" class="active">Novidades</a>
+                      <a href="/Roupas Femininas/saias.html">Saias</a>
+                      <a href="/Roupas Femininas/calça.html">Calças</a>
+                      <a href="/Roupas Femininas/vestidos.html">Vestidos</a>
+                      <a href="/Roupas Femininas/casacos.html">Casacos</a>
+                      <a href="/Roupas Femininas/macacoes.html">Macacões</a>
+                      <a href="/Roupas Femininas/blusas.html">Blusas</a>
+                  </div>
+              </div>
+              <div class="dropdown">
+                  <button class="dropbtn">Calçados<img src="/Home/img/Header/arrow-icon.svg" class="dropdown-button" alt="Arrow"></button>
+                  <div class="dropdown-content">
+                      <a href="#">Botas</a>
+                      <a href="#">Sandálias</a>
+                      <a href="#">Chinelos</a>
+                      <a href="#">Papetes</a>
+                  </div>
+              </div>
+              <div class="dropdown">
+                  <button class="dropbtn">Acessórios<img src="/Home/img/Header/arrow-icon.svg" class="dropdown-button" alt="Arrow"></button>
+                  <div class="dropdown-content">
+                      <a href="#">Brincos</a>
+                      <a href="#">Bem-Estar</a>
+                      <a href="#">Bolsas</a>
+                      <a href="#">Colares</a>
+                      <a href="#">Pulseiras</a>
+                  </div>
+              </div>
+              <div class="dropdown">
+                  <button class="dropbtn">Material<img src="/Home/img/Header/arrow-icon.svg" class="dropdown-button" alt="Arrow"></button>
+                  <div class="dropdown-content">
+                      <a href="#">Linho</a>
+                      <a href="#">Algodão</a>
+                      <a href="#">Seda</a>
+                      <a href="#">Tricôs</a>
+                      <a href="#">Malha</a>
+                      <a href="#">Modal</a>
+                  </div>
+              </div>
           </div>
-        </div>
-        <div class="dropdown-container">
-          <div class="dropdown">
-            <button class="dropbtn">
-              Roupas Femininas<img
-                src="/Home/img/Header/arrow-icon.svg"
-                class="dropdown-button"
-              />
-            </button>
-            <a href="#"></a>
-            <div class="dropdown-content">
-              <a href="/Roupas Femininas/novidades.html">Novidades</a>
-              <a href="/Roupas Femininas/saias.html">Saias</a>
-              <a href="/Roupas Femininas/calça.html">Calças</a>
-              <a href="/Roupas Femininas/vestidos.html">Vestidos</a>
-              <a href="/Roupas Femininas/casacos.html">Casacos</a>
-              <a href="/Roupas Femininas/macacoes.html">Macacões</a>
-              <a href="/Roupas Femininas/blusas.html">Blusas</a>
-            </div>
-          </div>
-          <div class="dropdown">
-            <button class="dropbtn" id="RF">
-              Calçados<img
-                src="/Home/img/Header/arrow-icon.svg"
-                class="dropdown-button"
-              />
-            </button>
-            <div class="dropdown-content">
-              <a href="#">Botas</a>
-              <a href="#">Sandálias</a>
-              <a href="#">Chinelos</a>
-              <a href="#">Papetes</a>
-            </div>
-          </div>
-          <div class="dropdown">
-            <button class="dropbtn">
-              Acessórios<img
-                src="/Home/img/Header/arrow-icon.svg"
-                class="dropdown-button"
-              />
-            </button>
-            <div class="dropdown-content">
-              <a href="#">Brincos</a>
-              <a href="#">Bem-Estar</a>
-              <a href="#">Bolsas</a>
-              <a href="#">Colares</a>
-              <a href="#">Pulseiras</a>
-            </div>
-          </div>
-          <div class="dropdown">
-            <button class="dropbtn">
-              Material<img
-                src="/Home/img/Header/arrow-icon.svg"
-                class="dropdown-button"
-              />
-            </button>
-            <div class="dropdown-content">
-              <a href="#">Linho</a>
-              <a href="#">Algodão</a>
-              <a href="#">Seda</a>
-              <a href="#">Tricôs</a>
-              <a href="#">Malha</a>
-              <a href="#">Modal</a>
-            </div>
-          </div>
-        </div>
       </div>
-    </header>
+  </header>
     <main>
       <div class="breadcrumb">
         <a href="/Home/index.html">Início</a> — <a href="#">Roupas Femininas</a> —
@@ -171,7 +138,9 @@
 
       <div class="product-grid">
         <div class="product-item">
-          <img src="/Roupas Femininas/img/n1.png" alt="Novidade 1" />
+          <a href="./detalhe_vestido.html">
+          <img src="./img/Placeholder Image (1).png" alt="Novidade 1" />
+        </a>
           <div class="product-info">
             <p>Vestido Tropical</p>
             <p class="price">R$ 90,00</p>
@@ -268,6 +237,9 @@
         </div>
       </div>
     </main>
+
+    <script src="./script.js"></script>
+
     <footer>
       <div class="footer-container">
         <div class="footer-list">
