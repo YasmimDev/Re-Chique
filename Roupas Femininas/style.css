@@ -1,3 +1,11 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 html {
     font-family: Arial, Helvetica, sans-serif;
   }
@@ -64,6 +72,10 @@ html {
     border: none;
     cursor: pointer;
   }
+
+  .active {
+    font-weight: bold;
+  }
   
   .dropdown-button {
     width: 1rem;
@@ -94,7 +106,7 @@ html {
   }
   
   .dropdown-content a:hover {
-    background-color: #f1f1f1;
+    background-color: #c4c0c0;
   }
   
   .dropdown:hover .dropdown-content {
