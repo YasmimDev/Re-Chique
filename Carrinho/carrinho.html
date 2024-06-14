@@ -105,11 +105,10 @@
       </header>
 
       <div class="shopping-cart">
-        <h2>Carrinho de compras (3)</h2>
         <table>
             <thead>
                 <tr>
-                    <th><input type="checkbox"></th>
+                  <th><input type="checkbox" id="selectAll"></th>
                     <th>PRODUTOS</th>
                     <th>QUANTIDADE</th>
                     <th>TOTAL</th>
@@ -117,8 +116,8 @@
             </thead>
             <tbody>
                 <tr>
-                    <td><input type="checkbox"></td>
-                    <td>
+                  <td><input type="checkbox" class="product-checkbox"></td>
+                  <td>
                         <div class="product-info">
                             <img src="./img/blusa.png" alt="Vestido Longo Manga 3/4">
                             <div>
@@ -132,7 +131,7 @@
                     <td>R$ 111,80</td>
                 </tr>
                 <tr>
-                    <td><input type="checkbox"></td>
+                  <td><input type="checkbox" class="product-checkbox"></td>
                     <td>
                         <div class="product-info">
                             <img src="./img/calça.png" alt="Calça Wide Leg em Tricô com Estampa Étnica">
@@ -147,8 +146,8 @@
                     <td>R$ 72,90</td>
                 </tr>
                 <tr>
-                    <td><input type="checkbox"></td>
-                    <td>
+                  <td><input type="checkbox" class="product-checkbox"></td>                   
+                   <td>
                         <div class="product-info">
                             <img src="./img/short.png" alt="Calça Cenoura em Viscose com Botões">
                             <div>
@@ -164,7 +163,7 @@
             </tbody>
         </table>
         <div class="actions">
-            <button class="excluir">Excluir</button>
+            <button class="delete-item">Excluir</button>
             <button class="inativos">Remover produtos inativos</button>
             <button class="fav">Mover para <span>&#10084;</span></button>
             <div class="coupon">
@@ -175,12 +174,16 @@
         </div>
         <div class="total">
             <p>Total: R$ 230,60</p>
+            <a href="./detalhecarrinho.html">
             <button>Continuar</button>
+            </a>
         </div>
 
     </div>
     <div class="cont">
+      <a href="/Home/index.html">
         <button class="continue-shopping">Continuar Comprando</button>
+      </a>
     </div>
 
     <hr class="divider">
@@ -214,7 +217,7 @@
         </div>
       </section>
 
-    <script src="script.js"></script>
+    <script src="./script/carrinho.js"></script>
 
     <footer>
         <div class="footer-container">
