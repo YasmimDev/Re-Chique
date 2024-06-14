@@ -1,153 +1,258 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="dressdetails.css" />
     <title>Detalhe Vestido</title>
-</head>
-<body>
-    <div class="navbar">
-        <a href="#" class="logo">Logo</a>
-        <div class="search">
-            <input type="text" placeholder="Search..">
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="nav1">
+          <a href="/Home/index.html" class="logo"
+            ><img src="/Home/img/Header/logo.png"
+          /></a>
+          <div class="search">
+            <input type="text" placeholder="Buscar produtos" />
+          </div>
+          <div class="user-options">
+            <a href="#"
+              ><img src="/Home/img/Header/search-icon.svg" class="search-icon"
+            /></a>
+            <a href="/User/login.html" id="user-opt">Entre ou cadastre-se</a>
+            <a href="#"
+              ><img
+                src="/Home/img/Header/question-icon.svg"
+                class="header-icons"
+            /></a>
+            <a href="#"
+              ><img id="user-icon" src="/Home/img/Header/user-icon.svg" class="header-icons"
+            /></a>
+            <a href="/Carrinho/carrinho.html"
+              ><img src="/Home/img/Header/bag-icon.svg" class="header-icons"
+            /></a>
+          </div>
         </div>
-        <div class="user-options">
-            <a href="#">Entre ou cadastre-se</a>
-        </div>
-        <div class="dropdown">
-            <button class="dropbtn">Roupas Femininas</button>
+        <div class="dropdown-container">
+          <div class="dropdown">
+            <button class="dropbtn">
+              Roupas Femininas<img
+                src="/Home/img/Header/arrow-icon.svg"
+                class="dropdown-button"
+              />
+            </button>
+            <a href="#"></a>
             <div class="dropdown-content">
-                <a href="#">Option 1</a>
-                <a href="#">Option 2</a>
-                <a href="#">Option 3</a>
+              <a href="/Roupas Femininas/novidades.html">Novidades</a>
+              <a href="/Roupas Femininas/saias.html">Saias</a>
+              <a href="/Roupas Femininas/calça.html">Calças</a>
+              <a href="/Roupas Femininas/vestidos.html">Vestidos</a>
+              <a href="/Roupas Femininas/casacos.html">Casacos</a>
+              <a href="/Roupas Femininas/macacoes.html">Macacões</a>
+              <a href="/Roupas Femininas/blusas.html">Blusas</a>
             </div>
-        </div>
-        <div class="dropdown">
-            <button class="dropbtn">Calçados</button>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn" id="RF">
+              Calçados<img
+                src="/Home/img/Header/arrow-icon.svg"
+                class="dropdown-button"
+              />
+            </button>
             <div class="dropdown-content">
-                <a href="#">Option 1</a>
-                <a href="#">Option 2</a>
-                <a href="#">Option 3</a>
+              <a href="#">Botas</a>
+              <a href="#">Sandálias</a>
+              <a href="#">Chinelos</a>
+              <a href="#">Papetes</a>
             </div>
-        </div>
-        <div class="dropdown">
-            <button class="dropbtn">Acessórios</button>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn">
+              Acessórios<img
+                src="/Home/img/Header/arrow-icon.svg"
+                class="dropdown-button"
+              />
+            </button>
             <div class="dropdown-content">
-                <a href="#">Option 1</a>
-                <a href="#">Option 2</a>
-                <a href="#">Option 3</a>
+              <a href="#">Brincos</a>
+              <a href="#">Bem-Estar</a>
+              <a href="#">Bolsas</a>
+              <a href="#">Colares</a>
+              <a href="#">Pulseiras</a>
             </div>
-        </div>
-        <div class="dropdown">
-            <button class="dropbtn">Material</button>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn">
+              Material<img
+                src="/Home/img/Header/arrow-icon.svg"
+                class="dropdown-button"
+              />
+            </button>
             <div class="dropdown-content">
-                <a href="#">Option 1</a>
-                <a href="#">Option 2</a>
-                <a href="#">Option 3</a>
+              <a href="#">Linho</a>
+              <a href="#">Algodão</a>
+              <a href="#">Seda</a>
+              <a href="#">Tricôs</a>
+              <a href="#">Malha</a>
+              <a href="#">Modal</a>
             </div>
+          </div>
         </div>
-    </div>
+      </div>
+    </header>
 
-    <div class="breadcrumb">
-        <a href="/Home/index.html">Início</a> &gt;
-        <a href="#">Roupas Femininas</a> &gt;
-        <a href="#">Vestidos</a> &gt;
-        <span>Vestido Longo Manga 3/4</span>
-    </div>
+    <main>
+      <div class="breadcrumb">
+        <a href="#">Início</a> &gt; <a href="#">Roupas Femininas</a> &gt;
+        <a href="#">Vestidos</a> &gt; Vestido Longo Manga 3/4
+      </div>
 
-    <div class="product-page">
-        <div class="product-images">
-            <img src="https://via.placeholder.com/600x800" alt="Main Image">
-            <div>
-                <img src="https://via.placeholder.com/200x200" alt="Image 1">
-                <img src="https://via.placeholder.com/200x200" alt="Image 2">
-            </div>
+      <div class="product">
+        <div class="product-image">
+          <img
+            id="main-image"
+            src="/Roupas Femininas/img/dress2.png"
+            alt="Vestido Longo Manga 3/4"
+          />
+          <div class="small-images">
+            <img
+              class="small-image"
+              src="/Roupas Femininas/img/dress1.png"
+              alt="Vestido Longo Manga 3/4 - small 1"
+            />
+            <img
+              class="small-image"
+              src="/Roupas Femininas/img/dress3.png"
+              alt="Vestido Longo Manga 3/4 - small 2"
+            />
+          </div>
         </div>
         <div class="product-details">
-            <h1>Vestido Longo Manga 3/4</h1>
-            <p>Código: 737455000</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur quis enim id sapien imperdiet mollis laoreet ac justo. In ullamcorper ac mi ut aliquet. Etiam odio orci, mollis ac velit et, varius mollis urna.</p>
-            <div class="price">
-                De R$ 59,90 <br>
-                <span class="discount-price">por R$ 55,90 - 6%</span><br>
-                2x de R$ 27,95* sem juros no Cartão
+          <h1>Vestido Longo Manga 3/4</h1>
+          <p class="product-code">Código: 737455000</p>
+          <p class="product-description">
+            Vestido Longo Manga 3/4 Em Algodão Com Babados Sobrepostos rosa
+          </p>
+          <p class="product-price">
+            De R$ 59,90 por R$ 55,90 - <span class="discount">6%</span>
+          </p>
+          <p class="product-installments">
+            2x de R$ 27,95* sem juros no Cartão
+          </p>
+          <div class="product-options">
+            <p>
+              Cor:
+              <span
+                class="color-swatch"
+                style="background-color: #ce4878"
+              ></span>
+              Rosa
+            </p>
+            <p>Tamanho: PP</p>
+          </div>
+          <button class="buy-button">Comprar</button>
+          <button class="add-to-cart">Adicionar à Sacola</button>
+          <div class="share">
+            <p>Curtiu? Compartilhe esta peça!</p>
+            <div class="social-icons">
+              <a href="#"><img src="/Roupas Femininas/img/instagram.svg" /></a>
+              <a href="#"><img src="/Roupas Femininas/img/twitter.svg" /></a>
+              <a href="#"><img src="/Roupas Femininas/img/facebook.svg" /></a>
             </div>
-            <div class="size-color">
-                Cor: Rosa <br>
-                Tamanho: PP
-            </div>
-            <div class="buttons">
-                <button class="buy">Comprar</button>
-                <button class="add-to-cart">Adicionar à Sacola</button>
-            </div>
-            <div class="share">
-                Curtiu? Compartilhe esta peça!
-            </div>
-            <div class="calculate-shipping">
-                <h3>Calcular Frete</h3>
-                <input type="text" placeholder="Não sei meu CEP">
-                <button>OK</button>
-            </div>
+          </div>
+          <div class="shipping">
+            <p>Calcular Frete</p>
+            <input type="text" placeholder="Pesquisar frete" />
+            <button>OK</button>
+          </div>
+          <a class="ns" href="#">Não sei meu CEP</a>
         </div>
-    </div>
+      </div>
 
-    <div class="also-buy">
-        <h3>Compre Também</h3>
-        <div>
-            <div>
-                <img src="" alt="Product 1">
-                <p>Blusa</p>
-                <p>R$ 39,90</p>
-            </div>
-            <div>
-                <img src="" alt="Product 2">
-                <p>Saia</p>
-                <p>R$ 49,90</p>
-            </div>
-            <div>
-                <img src="" alt="Product 3">
-                <p>Brinco</p>
-                <p>R$ 29,90</p>
-            </div>
-            <div>
-                <img src="" alt="Product 4">
-                <p>Casaco</p>
-                <p>R$ 39,90</p>
-            </div>
+      <div class="related-products">
+        <h2>Compre Também</h2>
+        <div class="product-list">
+          <div class="product-item">
+            <img src="/Roupas Femininas/img/bb1.png" alt="Blusa" />
+            <p class="product">
+              Blusa <span class="separator"></span><strong>$29,90</strong>
+            </p>
+          </div>
+          <div class="product-item">
+            <img src="/Roupas Femininas/img/ss1.png" alt="Saia" />
+            <p class="product">
+                Saia <span class="separator"></span><strong>$49,90</strong>
+              </p>
+          </div>
+          <div class="product-item">
+            <img src="/Roupas Femininas/img/ee1.png" alt="Brinco" />
+            <p class="product">
+                Brinco <span class="separator"></span><strong>$25,90</strong>
+              </p>
+          </div>
+          <div class="product-item">
+            <img src="/Roupas Femininas/img/dd1.png" alt="Casaco" />
+            <p class="product">
+                Casaco <span class="separator"></span><strong>$79,90</strong>
+              </p>
+          </div>
         </div>
-    </div>
+      </div>
+    </main>
 
     <footer>
-        <div class="footer-container">
-            <div class="footer-categories">
-                <h3>Categorias</h3>
-                <ul>
-                    <li><a href="#">Roupas Femininas</a></li>
-                    <li><a href="#">Calçados</a></li>
-                    <li><a href="#">Acessórios</a></li>
-                    <li><a href="#">Material</a></li>
-                </ul>
-            </div>
-    
-            <div class="footer-information">
-                <h3>Informações</h3>
-                <ul>
-                    <li><a href="#">Troca e Devolução</a></li>
-                    <li><a href="#">Política de Privacidade</a></li>
-                    <li><a href="#">Fale Conosco</a></li>
-                </ul>
-            </div>
-    
-            <div class="footer-contact">
-                <h3>Contato</h3>
-                <p>WHATSAPP-(00) 0000 0000</p>
-                <p>Av. Mal. Mascarenhas de Morais, 3905-Imbiribeira - Recife/PE CEP: 00000-000 CNPJ: 00.000.000/0000-00</p>
-            </div>
-    
-            <div class="footer-copyright">
-                <p>&copy; 2024 Todos os direitos reservados</p>
-            </div>
+      <div class="footer-container">
+        <div class="footer-list">
+          <div class="footer-categories">
+            <h3>Categorias</h3>
+            <ul>
+              <li><a href="#">Roupas Femininas</a></li>
+              <li><a href="#">Calçados</a></li>
+              <li><a href="#">Acessórios</a></li>
+              <li><a href="#">Material</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-impact">
+            <h3>Impacto</h3>
+            <ul></ul>
+          </div>
+
+          <div class="footer-information">
+            <h3>Suporte</h3>
+            <ul>
+              <li><a href="#">Troca e Devolução</a></li>
+              <li><a href="#">Política de Privacidade</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-SAC">
+            <h3>Contato</h3>
+            <ul>
+              <li><a href="#">Fale Conosco</a></li>
+            </ul>
+          </div>
         </div>
+        <div class="footer-contact">
+          <p>WHATSAPP - (00) 0000 0000</p>
+          <p>
+            Av. Mal. Mascarenhas de Morais, 3905 - Imbiribeira - Recife/PE CEP:
+            00000-000 CNPJ: 00.000.000/0000-00
+          </p>
+        </div>
+
+        <div class="social-icons">
+          <a href="#"><img src="/Home/img/Footer/instagram-icon.svg" /></a>
+          <a href="#"><img src="/Home/img/Footer/youtube-icon.svg" /></a>
+          <a href="#"><img src="/Home/img/Footer/facebook-icon.svg" /></a>
+          <a href="#"><img src="/Home/img/Footer/twitter-icon.svg" /></a>
+        </div>
+
+        <div class="footer-copyright">
+          <p>&copy; 2024 Todos os direitos reservados</p>
+        </div>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
