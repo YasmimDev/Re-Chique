@@ -119,22 +119,23 @@ html {
   font-size: 1.3rem;
 }
 
-.text2{
-    font-weight: 550;
+.sugestions{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  margin-left: 11%;
 }
 
-.sugestions{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
+.text2{
+  margin-left: 4rem;
 }
 
 .separator {
-    margin: 0 5rem; /* Espaçamento entre o texto e o separador */
+  margin: 0 5rem; /* Espaçamento entre o texto e o separador */
 }
 
 .divider {
-    border: 1px solid #AAAAAA; /* Estilo da linha divisória */
-    margin: 20px 0; /* Margem para espaçamento entre as seções */
+  border: 1px solid #AAAAAA; /* Estilo da linha divisória */
+  margin: 20px 0; /* Margem para espaçamento entre as seções */
 }
 
 .iconss{
