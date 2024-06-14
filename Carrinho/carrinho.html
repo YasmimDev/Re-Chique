@@ -3,9 +3,271 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="/Carrinho/css/carrinho.css">
     <title>Carrinho</title>
 </head>
 <body>
-    
+
+
+    <header>
+        <div class="navbar">
+          <div class="nav1">
+            <a href="/Home/index.html" class="logo"
+              ><img src="/Home/img/Header/logo.png"
+            /></a>
+            <div class="search">
+              <input type="text" placeholder="Buscar produtos" />
+            </div>
+            <div class="user-options">
+              <a href="#"
+                ><img src="/Home/img/Header/search-icon.svg" class="search-icon"
+              /></a>
+              <a href="#" id="user-opt">Entre ou cadastre-se</a>
+              <a href="#"
+                ><img
+                  src="/Home/img/Header/question-icon.svg"
+                  class="header-icons"
+              /></a>
+              <a href="#"
+                ><img src="/Home/img/Header/user-icon.svg" class="header-icons"
+              /></a>
+              <a href="#"
+                ><img src="/Home/img/Header/bag-icon.svg" class="header-icons"
+              /></a>
+            </div>
+          </div>
+          <div class="dropdown-container">
+            <div class="dropdown">
+              <button class="dropbtn">
+                Roupas Femininas<img
+                  src="/Home/img/Header/arrow-icon.svg"
+                  class="dropdown-button"
+                />
+              </button>
+              <a href="#"></a>
+              <div class="dropdown-content">
+                <a href="#">Novidades</a>
+                <a href="#">Saias</a>
+                <a href="#">Calças</a>
+                <a href="#">Vestidos</a>
+                <a href="#">Casacos</a>
+                <a href="#">Macacões</a>
+                <a href="#">Blusas</a>
+              </div>
+            </div>
+            <div class="dropdown">
+              <button class="dropbtn" id="RF">
+                Calçados<img
+                  src="/Home/img/Header/arrow-icon.svg"
+                  class="dropdown-button"
+                />
+              </button>
+              <div class="dropdown-content">
+                <a href="#">Botas</a>
+                <a href="#">Sandálias</a>
+                <a href="#">Chinelos</a>
+                <a href="#">Papetes</a>
+              </div>
+            </div>
+            <div class="dropdown">
+              <button class="dropbtn">
+                Acessórios<img
+                  src="/Home/img/Header/arrow-icon.svg"
+                  class="dropdown-button"
+                />
+              </button>
+              <div class="dropdown-content">
+                <a href="#">Brincos</a>
+                <a href="#">Bem-Estar</a>
+                <a href="#">Bolsas</a>
+                <a href="#">Colares</a>
+                <a href="#">Pulseiras</a>
+              </div>
+            </div>
+            <div class="dropdown">
+              <button class="dropbtn">
+                Material<img
+                  src="/Home/img/Header/arrow-icon.svg"
+                  class="dropdown-button"
+                />
+              </button>
+              <div class="dropdown-content">
+                <a href="#">Linho</a>
+                <a href="#">Algodão</a>
+                <a href="#">Seda</a>
+                <a href="#">Tricôs</a>
+                <a href="#">Malha</a>
+                <a href="#">Modal</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <div class="shopping-cart">
+        <h2>Carrinho de compras (3)</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th><input type="checkbox"></th>
+                    <th>PRODUTOS</th>
+                    <th>QUANTIDADE</th>
+                    <th>TOTAL</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>
+                        <div class="product-info">
+                            <img src="./img/blusa.png" alt="Vestido Longo Manga 3/4">
+                            <div>
+                                <p>Vestido Longo Manga 3/4</p>
+                                <p>Cor: Rosa</p>
+                                <p>Tamanho: PP</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>2</td>
+                    <td>R$ 111,80</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>
+                        <div class="product-info">
+                            <img src="./img/calça.png" alt="Calça Wide Leg em Tricô com Estampa Étnica">
+                            <div>
+                                <p>Calça Wide Leg em Tricô com Estampa Étnica</p>
+                                <p>Cor: Laranja</p>
+                                <p>Tamanho: M</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>2</td>
+                    <td>R$ 72,90</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox"></td>
+                    <td>
+                        <div class="product-info">
+                            <img src="./img/short.png" alt="Calça Cenoura em Viscose com Botões">
+                            <div>
+                                <p>Calça Cenoura em Viscose com Botões</p>
+                                <p>Cor: Preta</p>
+                                <p>Tamanho: M</p>
+                            </div>
+                        </div>
+                    </td>
+                    <td>1</td>
+                    <td>R$ 45,90</td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="actions">
+            <button class="excluir">Excluir</button>
+            <button class="inativos">Remover produtos inativos</button>
+            <button class="fav">Mover para <span>&#10084;</span></button>
+            <div class="coupon">
+                <label for="coupon">Cupom Re-Chique</label>
+                <input type="text" id="coupon">
+                <button>Aplicar</button>
+            </div>
+        </div>
+        <div class="total">
+            <p>Total: R$ 230,60</p>
+            <button>Continuar</button>
+        </div>
+
+    </div>
+    <div class="cont">
+        <button class="continue-shopping">Continuar Comprando</button>
+    </div>
+
+    <hr class="divider">
+    <section>
+        <p class="text2">Compre também:</p>
+        <div class="sugestions">
+          <div class="sug">
+            <img src="/Carrinho/img/blusa.png" />
+            <p class="product">
+              Blusa <span class="separator"></span> <strong>R$39,90</strong>
+            </p>
+          </div>
+          <div class="sug">
+            <img src="/Carrinho/img/calça.png" />
+            <p class="product">
+              Calça <span class="separator"></span> <strong>R$49,90</strong>
+            </p>
+          </div>
+          <div class="sug">
+            <img src="/Carrinho/img/pulseira.png" />
+            <p class="product">
+              Pulseira <span class="separator"></span><strong>$29,90</strong>
+            </p>
+          </div>
+          <div class="sug">
+            <img src="/Carrinho/img/short.png" />
+            <p class="product">
+              Short <span class="separator"></span><strong>$39,90</strong>
+            </p>
+          </div>
+        </div>
+      </section>
+
+    <script src="script.js"></script>
+
+    <footer>
+        <div class="footer-container">
+          <div class="footer-list">
+            <div class="footer-categories">
+              <h3>Categorias</h3>
+              <ul>
+                <li><a href="#">Roupas Femininas</a></li>
+                <li><a href="#">Calçados</a></li>
+                <li><a href="#">Acessórios</a></li>
+                <li><a href="#">Material</a></li>
+              </ul>
+            </div>
+  
+            <div class="footer-impact">
+              <h3>Impacto</h3>
+              <ul></ul>
+            </div>
+  
+            <div class="footer-information">
+              <h3>Suporte</h3>
+              <ul>
+                <li><a href="#">Troca e Devolução</a></li>
+                <li><a href="#">Política de Privacidade</a></li>
+              </ul>
+            </div>
+  
+            <div class="footer-SAC">
+              <h3>Contato</h3>
+              <ul>
+                <li><a href="#">Fale Conosco</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-contact">
+            <p>WHATSAPP - (00) 0000 0000</p>
+            <p>
+              Av. Mal. Mascarenhas de Morais, 3905 - Imbiribeira - Recife/PE CEP:
+              00000-000 CNPJ: 00.000.000/0000-00
+            </p>
+          </div>
+  
+          <div class="social-icons">
+            <a href="#"><img src="/Home/img/Footer/instagram-icon.svg" /></a>
+            <a href="#"><img src="/Home/img/Footer/youtube-icon.svg" /></a>
+            <a href="#"><img src="/Home/img/Footer/facebook-icon.svg" /></a>
+            <a href="#"><img src="/Home/img/Footer/twitter-icon.svg" /></a>
+          </div>
+  
+          <div class="footer-copyright">
+            <p>&copy; 2024 Todos os direitos reservados</p>
+          </div>
+        </div>
+      </footer>
 </body>
 </html>
