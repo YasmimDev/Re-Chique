@@ -1,11 +1,287 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/Roupas Femininas/style.css" />
     <title>Saias</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+          <div class="nav1">
+              <a href="/Home/index.html" class="logo"><img src="/Home/img/Header/logo.png"></a>
+              <div class="search">
+                  <input type="text" placeholder="Buscar produtos">
+              </div>
+              <div class="user-options">
+                  <a href="#"><img src="/Home/img/Header/search-icon.svg" class="search-icon"></a>
+                  <a href="/User/login.html" id="user-opt">Entre ou cadastre-se</a>
+                  <a href="#"><img src="/Home/img/Header/question-icon.svg" class="header-icons"></a>
+                  <a href="#"><img src="/Home/img/Header/user-icon.svg" class="header-icons"></a>
+                  <a href="/Carrinho/carrinho.html"><img src="/Home/img/Header/bag-icon.svg" class="header-icons"></a>
+              </div>
+          </div>
+      <div class="dropdown-container">
+          <div class="dropdown">
+              <button class="dropbtn">Roupas Femininas<img src="/Home/img/Header/arrow-icon.svg" class="dropdown-button"></button>
+              <a href="#"></a>
+              <div class="dropdown-content">
+                <a href="/Roupas Femininas/novidades.html">Novidades</a>
+                  <a href="/Roupas Femininas/saias.html">Saias</a>
+                  <a href="/Roupas Femininas/calça.html">Calças</a>
+                  <a href="/Roupas Femininas/vestidos.html">Vestidos</a>
+                  <a href="/Roupas Femininas/casacos.html">Casacos</a>
+                  <a href="/Roupas Femininas/macacoes.html">Macacões</a>
+                  <a href="/Roupas Femininas/blusas.html">Blusas</a>
+              </div>
+          </div>
+          <div class="dropdown">
+              <button class="dropbtn" id="RF">Calçados<img src="/Home/img/Header/arrow-icon.svg" class="dropdown-button"></button>
+              <div class="dropdown-content">
+                  <a href="#">Botas</a>
+                  <a href="#">Sandálias</a>
+                  <a href="#">Chinelos</a>
+                  <a href="#">Papetes</a>
+              </div>
+          </div>
+          <div class="dropdown">
+              <button class="dropbtn">Acessórios<img src="/Home/img/Header/arrow-icon.svg" class="dropdown-button"></button>
+              <div class="dropdown-content">
+                  <a href="#">Brincos</a>
+                  <a href="#">Bem-Estar</a>
+                  <a href="#">Bolsas</a>
+                  <a href="#">Colares</a>
+                  <a href="#">Pulseiras</a>
+              </div>
+          </div>
+          <div class="dropdown">
+              <button class="dropbtn">Material<img src="/Home/img/Header/arrow-icon.svg" class="dropdown-button"></button>
+              <div class="dropdown-content">
+                  <a href="#">Linho</a>
+                  <a href="#">Algodão</a>
+                  <a href="#">Seda</a>
+                  <a href="#">Tricôs</a>
+                  <a href="#">Malha</a>
+                  <a href="#">Modal</a>
+              </div>
+          </div>
+      </div>
+      </div>
+  </header>
+    <main>
+      <div class="breadcrumb">
+        <a href="/Home/index.html">Início</a> — <a href="#">Roupas Femininas</a> —
+        <span>Saias</span>
+      </div>
+      <h1>Saias</h1>
+      <div class="filters">
+        <select>
+          <option class="filtro" value="categoria">Categoria</option>
+          <option value="Saias">Saias</option>
+          <option value="Curta e Média">Curta e Média</option>
+          <option value="Longa">Longa</option>
+        </select>
+        <select>
+          <option class="filtro" value="marca">Marca</option>
+          <option value="Patagonia">Patagonia</option>
+          <option value="Stella McCartney">Stella McCartney</option>
+          <option value="Everlane">Everlane</option>
+          <option value="Veja">Veja</option>
+        </select>
+        <select>
+          <option class="filtro" value="tamanho">Tamanho</option>
+          <option value="PP">PP</option>
+          <option value="P">P</option>
+          <option value="M">M</option>
+          <option value="G">G</option>
+          <option value="GG">GG</option>
+        </select>
+        <select>
+          <option class="filtro" value="cor">Cor</option>
+          <option value="Dourado">Dourado</option>
+          <option value="Rosa">Rosa</option>
+          <option value="Vermelho">Vermelho</option>
+          <option value="Amarelo">Amarelo</option>
+          <option value="Marrom">Marrom</option>
+          <option value="Bege">Bege</option>
+          <option value="Roxo">Roxo</option>
+          <option value="Branco">Branco</option>
+          <option value="Off White">Off White</option>
+          <option value="Prata">Prata</option>
+          <option value="Verde">Verde</option>
+          <option value="Laranja">Laranja</option>
+          <option value="Preto">Preto</option>
+          <option value="Cinza">Cinza</option>
+          <option value="Multicores">Multicores</option>
+          <option value="Azul">Azul</option>
+        </select>
+      </div>
+      <hr>
+      <div class="filters" id="ord">
+        <select>
+            <option class="filtro" value="ordenar">Ordenar</option>
+            <option value="Novidades">Novidades</option>
+            <option value="Menor preço">Menor preço</option>
+            <option value="Maior preço">Maior preço</option>
+            <option value="A - Z">A - Z</option>
+            <option value="Z - A">Z - A</option>
+            <option value="Maior Desconto">Maior Desconto</option>
+            <option value="Mais Vendidos">Mais Vendidos</option>
+          </select>
+      </div>
+
+      <div class="product-grid">
+        <div class="product-item">
+          <img src="/Roupas Femininas/img/s1.png" alt="Saia 1" />
+          <div class="product-info">
+            <p>Saia de Pregas Xadrez Cinza</p>
+            <p class="price">R$ 90,00</p>
+            <p>3x de R$ 30,00*</p>
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="/Roupas Femininas/img/s2.png" alt="Saia 2" />
+          <div class="product-info">
+            <p>Saia de Pregas Xadrez Vermelha</p>
+            <p class="price">R$ 100,00</p>
+            <p>10x de R$ 10,00*</p>
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="/Roupas Femininas/img/s3.png" alt="Saia 3" />
+          <div class="product-info">
+            <p>Saia Rosa</p>
+            <p class="price">R$ 150,00</p>
+            <p>5x de R$ 30,00*</p>
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="/Roupas Femininas/img/s4.png" alt="Saia 4" />
+          <div class="product-info">
+            <p>Saia Verde-Água</p>
+            <p class="price">R$ 80,00</p>
+            <p>8x de R$ 10,00*</p>
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="/Roupas Femininas/img/s5.png" alt="Saia 5" />
+          <div class="product-info">
+            <p>Saia Listrada</p>
+            <p class="price">R$ 90,00</p>
+            <p>7x de R$ 30,00*</p>
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="/Roupas Femininas/img/s6.png" alt="Saia 6" />
+          <div class="product-info">
+            <p>Saia de Duas Estampas</p>
+            <p class="price">R$ 80,00</p>
+            <p>8x de R$ 10,00*</p>
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="/Roupas Femininas/img/s7.png" alt="Saia 7" />
+          <div class="product-info">
+            <p>Saia Xadrez</p>
+            <p class="price">R$ 100,00</p>
+            <p>10x de R$ 10,00*</p>
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="/Roupas Femininas/img/s8.png" alt="Saia 8" />
+          <div class="product-info">
+            <p>Saia Longa Roxa</p>
+            <p class="price">R$ 110,00</p>
+            <p>11x de R$ 10,00*</p>
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="/Roupas Femininas/img/s9.png" alt="Saia 9" />
+          <div class="product-info">
+            <p>Saia com Tule</p>
+            <p class="price">R$ 80,00</p>
+            <p>4x de R$ 20,00*</p>
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="/Roupas Femininas/img/s10.png" alt="Saia 10" />
+          <div class="product-info">
+            <p>Saia Longa Terracota</p>
+            <p class="price">R$ 70,00</p>
+            <p>2x de R$ 35,00*</p>
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="/Roupas Femininas/img/s11.png" alt="Saia 11" />
+          <div class="product-info">
+            <p>Saia Estampada</p>
+            <p class="price">R$ 100,00</p>
+            <p>4x de R$ 25,00*</p>
+          </div>
+        </div>
+        <div class="product-item">
+          <img src="/Roupas Femininas/img/s12.png" alt="Saia 12" />
+          <div class="product-info">
+            <p>Saia de Moletom Roxa</p>
+            <p class="price">R$ 60,00</p>
+            <p>6x de R$ 10,00*</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-list">
+          <div class="footer-categories">
+            <h3>Categorias</h3>
+            <ul>
+              <li><a href="#">Roupas Femininas</a></li>
+              <li><a href="#">Calçados</a></li>
+              <li><a href="#">Acessórios</a></li>
+              <li><a href="#">Material</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-impact">
+            <h3>Impacto</h3>
+            <ul></ul>
+          </div>
+
+          <div class="footer-information">
+            <h3>Suporte</h3>
+            <ul>
+              <li><a href="#">Troca e Devolução</a></li>
+              <li><a href="#">Política de Privacidade</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-SAC">
+            <h3>Contato</h3>
+            <ul>
+              <li><a href="#">Fale Conosco</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-contact">
+          <p>WHATSAPP - (00) 0000 0000</p>
+          <p>
+            Av. Mal. Mascarenhas de Morais, 3905 - Imbiribeira - Recife/PE CEP:
+            00000-000 CNPJ: 00.000.000/0000-00
+          </p>
+        </div>
+
+        <div class="social-icons">
+          <a href="#"><img src="/Home/img/Footer/instagram-icon.svg" /></a>
+          <a href="#"><img src="/Home/img/Footer/youtube-icon.svg" /></a>
+          <a href="#"><img src="/Home/img/Footer/facebook-icon.svg" /></a>
+          <a href="#"><img src="/Home/img/Footer/twitter-icon.svg" /></a>
+        </div>
+
+        <div class="footer-copyright">
+          <p>&copy; 2024 Todos os direitos reservados</p>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
