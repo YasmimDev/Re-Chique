@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Home/style.css">
+    <script src="/Home/script.js"></script>
+    <title>Loja Re-Chique</title>
+</head>
+<body>
+    <main>
+        <div class="navbar">
+            <div class="nav1">
+                <a href="/Home/index.html" class="logo"><img src="/Home/img/Header/logo.png"></a>
+                <div class="search">
+                    <input type="text" placeholder="Buscar produtos">
+                </div>
+                <div class="user-options">
+                    <a href="#"><img src="/Home/img/Header/search-icon.svg" class="search-icon"></a>
+                    <a href="#"><img src="/Home/img/Header/user-icon.svg" class="header-icons"></a>
+                    <a href="#"><img src="/Home/img/Header/bag-icon.svg" class="header-icons"></a>
+                </div>
+            </div>
+        <div class="dropdown-container">
+            <div class="dropdown">
+                <button class="dropbtn">Roupas Femininas<img src="/Home/img/Header/arrow-icon.svg" class="dropdown-button"></button>
+                <a href="#"></a>
+                <div class="dropdown-content">
+                    <a href="#">Novidades</a>
+                    <a href="#">Saias</a>
+                    <a href="#">Calças</a>
+                    <a href="#">Vestidos</a>
+                    <a href="#">Casacos</a>
+                    <a href="#">Macacões</a>
+                    <a href="#">Blusas</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn" id="RF">Calçados<img src="/Home/img/Header/arrow-icon.svg" class="dropdown-button"></button>
+                <div class="dropdown-content">
+                    <a href="#">Botas</a>
+                    <a href="#">Sandálias</a>
+                    <a href="#">Chinelos</a>
+                    <a href="#">Papetes</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Acessórios<img src="/Home/img/Header/arrow-icon.svg" class="dropdown-button"></button>
+                <div class="dropdown-content">
+                    <a href="#">Brincos</a>
+                    <a href="#">Bem-Estar</a>
+                    <a href="#">Bolsas</a>
+                    <a href="#">Colares</a>
+                    <a href="#">Pulseiras</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <button class="dropbtn">Material<img src="/Home/img/Header/arrow-icon.svg" class="dropdown-button"></button>
+                <div class="dropdown-content">
+                    <a href="#">Linho</a>
+                    <a href="#">Algodão</a>
+                    <a href="#">Seda</a>
+                    <a href="#">Tricôs</a>
+                    <a href="#">Malha</a>
+                    <a href="#">Modal</a>
+                </div>
+            </div>
+        </div>
+        </div>
+
+       <div class="carousel">
+  <div class="carousel-inner">
+    <img src="/Home/img/Main/banner1.jpeg" alt="Imagem 1">
+    <img src="/Home/img/Main/banner2.jpeg" alt="Imagem 2">
+    <img src="/Home/img/Main/banner3.jpeg" alt="Imagem 3">
+    <img src="/Home/img/Main/banner4.jpeg" alt="Imagem 4">
+  </div>
+  <button class="prev" onclick="prevSlide()">&#10094;</button>
+  <button class="next" onclick="nextSlide()">&#10095;</button>
+</div>
+        <div class="main-sections">
+        <section class="produtos">
+            <div class="container">
+                <h2>Novidades</h2>
+                <div class="produtos-grid">
+                    <div class="produto">
+                        <img src="/Home/img/Main/saia.png" alt="Produto 1">
+                        <h3>Saia de Praia</h3>
+                        <p class="valor">R$ 90,00</p>
+                        <p>7x de R$ 30,00*</p>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                    <div class="produto">
+                        <img src="/Home/img/Main/bolsa.png" alt="Produto 2">
+                        <h3>Bolsa Jeans</h3>
+                        <p class="valor">R$ 90,00</p>
+                        <p>7x de R$ 30,00*</p>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                    <div class="produto">
+                        <img src="/Home/img/Main/camisa.png" alt="Produto 3">
+                        <h3>Camisa Estampada</h3>
+                        <p class="valor">R$ 90,00</p>
+                        <p>7x de R$ 30,00*</p>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="promocoes">
+            <div class="container">
+                <h2>Promoções</h2>
+                <div class="promocoes-grid">
+                    <div class="promocao">
+                        <img src="/Home/img/Main/calça.png" alt="Promoção 1">
+                        <h3>Calça Bege</h3>
+                        <p class="preço-anterior">De R$ 120,00</p>
+                        <p class="valor">Por R$ 90,00</p>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                    <div class="promocao">
+                        <img src="/Home/img/Main/blusa.png" alt="Promoção 2">
+                        <h3>Blusa Borda</h3>
+                        <p class="preço-anterior">De R$ 120,00</p>
+                        <p class="valor">Por R$ 90,00</p>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                    <div class="promocao">
+                        <img src="/Home/img/Main/colar.png" alt="Promoção 3">
+                        <h3>Colar Artesanal</h3>
+                        <p class="preço-anterior">De R$ 120,00</p>
+                        <p class="valor">Por R$ 90,00</p>
+                        <a href="#" class="btn">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="blog">
+            <div class="container">
+                <div class="promotions">
+                    <h3>PROMOÇÕES</h3>
+                    <img src="/Home/img/Main/promo.png" class="promo" alt="promoção">
+                </div>
+            
+                <div class="blogg">
+                    <h3>BLOG</h3>
+                    <p><strong>Moda Sustentável</strong></p>
+                    <p>Descubra como transformar seu guarda-roupa com escolhas sustentáveis: leia nossa matéria completa!</p>
+                    <a href="#" class="btn">Leia Mais</a>
+                </div>
+            </div>
+        </section>
+    </div>
+
+        <footer>
+            <div class="footer-container">
+                <div class="footer-list">
+                 <div class="footer-categories">
+                    <h3>Categorias</h3>
+                    <ul>
+                        <li><a href="#">Roupas Femininas</a></li>
+                        <li><a href="#">Calçados</a></li>
+                        <li><a href="#">Acessórios</a></li>
+                        <li><a href="#">Material</a></li>
+                    </ul>
+                </div>
+        
+                <div class="footer-impact">
+                    <h3>Impacto</h3>
+                    <ul>
+                    </ul>
+                </div>
+
+                <div class="footer-information">
+                    <h3>Suporte</h3>
+                    <ul>
+                        <li><a href="#">Troca e Devolução</a></li>
+                        <li><a href="#">Política de Privacidade</a></li>
+                    </ul>
+                </div>
+        
+                <div class="footer-SAC">
+                    <h3>Contato</h3>
+                    <ul>
+                        <li><a href="#">Fale Conosco</a></li>
+                    </ul>
+                </div>
+            </div>
+                <div class="footer-contact">
+                    <p>WHATSAPP - (00) 0000 0000</p>
+                    <p>Av. Mal. Mascarenhas de Morais, 3905 - Imbiribeira - Recife/PE CEP: 00000-000 CNPJ: 00.000.000/0000-00</p>
+                </div>
+                
+                <div class="social-icons">
+                    <a href="#"><img src="/Home/img/Footer/instagram-icon.svg"></a>
+                    <a href="#"><img src="/Home/img/Footer/youtube-icon.svg"></a>
+                    <a href="#"><img src="/Home/img/Footer/facebook-icon.svg"></a>
+                    <a href="#"><img src="/Home/img/Footer/twitter-icon.svg"></a>
+                </div>
+
+                <div class="footer-copyright">
+                    <p>&copy; 2024 Todos os direitos reservados</p>
+                </div>
+            </div>
+        </footer>
+</body>
+</html>
