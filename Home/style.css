@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -120,8 +126,8 @@ html {
 }
 
 .carousel-inner img {
-  width: 100%;
-  height: auto;
+  width: 100rem;
+  height: 30rem;
 }
 
 button {
@@ -148,6 +154,7 @@ button {
 .main-sections{
     display: grid;
     grid-template-columns: 2fr 1fr;
+    padding-top: 1rem;
 }
 
 
@@ -173,6 +180,7 @@ button {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    padding-top: 1rem;
 }
 
 .produto,
@@ -218,6 +226,10 @@ button {
     font-weight: bold;
 }
 
+.produtos, .promocoes h2{
+  margin-left: 1rem;
+}
+
 .promocao h3{
     font-weight: normal;
 }
@@ -227,12 +239,14 @@ button {
 }
 
 .btn{
+    display: inline-block;
     background-color:#0a9494;
     padding: 0.6rem 0.8rem;
     border-radius: 0.3rem;
     text-decoration: none;
     color: white;
     font-weight: bold;
+    margin-top: 0.5rem;
 }
 
 .blog h3{
@@ -252,12 +266,16 @@ button {
 }
 
 .blog img{
-    width:100%;
+    width:25rem;
 }
 
+.container img{
+  width: 100%;
+}
 
 .promotions{ 
     margin-bottom: 2rem;
+    width: 100%;
 }
 
 .blogg p {
