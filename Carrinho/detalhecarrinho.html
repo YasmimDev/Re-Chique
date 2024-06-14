@@ -105,13 +105,12 @@
       </header>
 
 
-      <div class="checkout">
-        <h2>Caixa (3)</h2>
         <div class="address">
             <p><strong>Endereço de Entrega:</strong></p>
             <p>Av. Mal. Mascarenhas de Morais, 3905 - Imbiribeira - Recife/PE CEP: 00000-000</p>
             <button>Trocar</button>
         </div>
+      <div class="checkout">
         <table>
             <thead>
                 <tr>
@@ -165,31 +164,35 @@
                 </tr>
             </tbody>
         </table>
-        <div class="shipping-options">
-            <div>
-                <p>Opção de Envio: Expresso Padrão</p>
-                <p>Receba entre 3 e 16 de maio</p>
-            </div>
-            <div>
-                <p>Resumo do pedido:</p>
-                <p>Subtotal: 5 itens</p>
-                <p>R$ 230,60</p>
-            </div>
-        </div>
-        <div class="payment-options">
-            <p>Formas de pagamento:</p>
-            <button>PIX</button>
-            <button>CRÉDITO</button>
-            <button>BOLETO</button>
-        </div>
-        <div class="summary">
-            <p>Descontos: <span>R$ 40,00</span></p>
-            <p>Frete: <span>R$ 15,00</span></p>
-            <p>Total: <strong>R$ 205,60</strong></p>
-        </div>
-        <button class="pay-button">PAGAR</button>
     </div>
 
+    <div class="shipping-options">
+      <div>
+          <p>Opção de Envio: Expresso Padrão</p>
+          <p class="rec">Receba entre 3 e 16 de maio</p>
+      </div>
+      <div>
+          <p>Resumo do pedido:</p>
+          <p>Subtotal: 5 itens</p>
+          <p>R$ 230,60</p>
+      </div>
+  </div>
+
+  <div class="payment-options">
+    <p>Formas de pagamento:</p>
+    <button>PIX</button>
+    <button class="boleto">BOLETO</button>
+</div>
+
+<div class="summary">
+    <p>Descontos: <span>R$ 40,00</span></p>
+    <p>Frete: <span>R$ 15,00</span></p>
+    <p>Total: <strong>R$ 205,60</strong></p>
+</div>
+
+<a href="/Carrinho/pagamento.html">    
+<button class="pay-button">PAGAR</button>
+</a>
     <script src="/Carrinho/script/detalhe_carrinho.js"></script>
 
      <footer>
