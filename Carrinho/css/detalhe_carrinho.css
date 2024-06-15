@@ -31,20 +31,24 @@ html {
 }
 
 .search input {
-  width: 100%;
+  width: 98%;
   padding: 0.5rem;
   border-style: none;
+  border-radius: 4px;
   font-size: 16px;
+  display: block;
 }
 
 .search-icon {
   width: 2rem;
-  margin-right: 30.2em;
+  margin-right: 70.4rem;
+  margin-top: 0.4rem;
 }
 
 .header-icons {
-  width: 1.5rem;
+  width: 2.4rem;
   padding: 0.2rem;
+  margin-top: 2.3rem;
 }
 
 .user-options {
@@ -54,8 +58,9 @@ html {
 
 #user-opt {
   text-decoration: none;
-  color: white;
-  margin-right: 0.8rem;
+  color: white;  
+  margin-right: 2.9rem;
+  padding-top: 2.3rem;
 }
 
 .dropdown-container {
@@ -64,7 +69,6 @@ html {
 
 .dropbtn {
   background-color: #0a9494;
-  padding: 0.5rem;
   color: white;
   font-size: 16px;
   border: none;
@@ -86,6 +90,7 @@ html {
 .dropdown-content {
   display: none;
   position: absolute;
+  margin-top: 1rem;
   background-color: #f9f9f9;
   width: fit-content;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
